@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <title>JyS</title>
+</head>
+
+<body>
+  <nav>
+    <img src="" alt="Logo">
+    <div class="indices-nav">
+      <a href="#verviajes">Ver viajes</a>
+      <a href="#programarviaje">Programar Viaje</a>
+      <a href="#cviaje">Servicio del viaje</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+  <header>
+    <div class="header-texto">
+      <h1>J y S</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nostrum, atque voluptate facilis praesentium
+        perferendis ab commodi quo harum cumque autem maiores numquam enim repudiandae dignissimos debitis illum libero
+        ut.
+      </p>
+      <button>Ver Viajes</button>
+      <button>Programar viajes</button>
+    </div>
+    <div class="slider">
+
+    </div>
+  </header>
+  <main id="verviajes">
+    <div>
+      <div class="viaje">
+        <div>
+          <h3></h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias cum est eveniet pariatur quos quasi
+            incidunt? Magnam neque aliquam cupiditate aperiam, amet possimus quae, iste dolorum explicabo repudiandae
+            iusto beatae.</p>
+          <div class="caract-viaje">
+            <p>Acientos Disponibles: </p>
+            <p>
+              Los buscamos en: <br> Y los llevamos a:
+            </p>
+            <p>
+              Los buscamos a la hora: <br> Y estimamos llegar a la hora:
+            </p>
+            <p>Cuantos dias dura el viaje: </p>
+            <p>
+              Fecha de ida: <br> Fecha de vuelta:
+            </p>
+          </div>
+          <div>
+            <p>Precio por persona: $</p>
+          </div>
+          <div class="preguntas">
+            <div class="preguntas-enviadas">
+
+            </div>
+            <form autocomplete="off">
+              <input type="text" id="preguntas-cliente" placeholder="Tienes alguna duda?">
+              <button>Enviar</button>
+            </form>
+          </div>
+        </div>
+        <div class="slider">
+          <img src="" alt="Lugar">
+        </div>
+      </div>
+    </div>
+    <div id="programarviaje">
+      <h2>Programar viaje</h2>
+      <div class="programar">
+        <div class="fecha">
+          <h4>Fecha de:</h4>
+          <form autocomplete="off" class="input-fecha">
+            <label>Ida: </label>
+            <input type="datetime" id="fecha-ida">
+          </form>
+          <form autocomplete="off" class="input-fecha">
+            <label>Vuelta: </label>
+            <input type="datetime" id="fecha-vuelta">
+          </form>
+        </div>
+        <div class="lugar-origen-destino">
+          <h4>Lugar de:</h4>
+          <form autocomplete="off" class="input-origen">
+            <label>Origen: </label>
+            <input type="date" id="lugar-origen">
+          </form>
+          <form autocomplete="off" class="input-destino">
+            <label>Destino: </label>
+            <input type="date" id="lugar-destino">
+          </form>
+        </div>
+        <div class="cant-pers-y-param">
+          <form autocomplete="off" class="cant-pers">
+            <label>Cuantas personas son: </label>
+            <input type="number" id="pers">
+          </form>
+          <div class="param">
+            <form autocomplete="off">
+              <label>Turismo</label>
+              <input type="checkbox" id="turismo">
+            </form>
+            <form autocomplete="off">
+              <label>Lugar fijo</label>
+              <input type="checkbox" id="fijo">
+            </form>
+            <form autocomplete="off">
+              <label>La camioneta debe ir un dia volver y luego ir nuevamente a buscarlos</label>
+              <input type="checkbox" id="ir-volver">
+            </form>
+            <form autocomplete="off">
+              <label>Llevarlos y traerlos en el mismo dia</label>
+              <input type="checkbox" id="un-dia">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section id="contacto">
+
+  </section>
+  <footer>
+
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
