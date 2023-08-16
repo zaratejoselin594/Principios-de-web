@@ -44,9 +44,9 @@ header{
   color: #fff;
   padding: 10px;
   margin-right: 15px;
-  background-color: #f64;
+  background-color:  #fedb5f;
   border-radius: 5px;
-  box-shadow: 3px 3px 0px #c74e41;
+  box-shadow: 3px 3px 0px #ffed71;
 }
 #verviajes{
   width: 100%;
@@ -55,23 +55,36 @@ header{
 .verviaje{
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
 }
 .viaje{
-  width: 90%;
-  height: 10em;
-  padding: 20px;
+  width: 100%;
+  height: 16em;
   display: flex;
   align-items: center;
-  background-color: #eef;
+  background-color: #f0c072;
+}
+.contenido-viaje{
+  margin: 20px;
 }
 .caract-viaje{
   display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin: 20px;
+}
+.precio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  margin: 0px 20px;
+}
+.imgveviajes{
+  width: 15em;
+  height: 10em;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
