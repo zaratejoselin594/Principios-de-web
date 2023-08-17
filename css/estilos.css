@@ -19,7 +19,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ddd;
+  background-color: #aaa  ;
   border-radius: 20px;
 }
 nav{

@@ -9,8 +9,8 @@
 .programar{
   margin: 20px;
   padding: 20px;
-  width: 25em;
-  height: 30em;
+  width: 30em;
+  height: 32em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,6 +19,40 @@
   border-radius: 5px;
   color: #fff;
 }
+.cant-pers-y-param{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cant-pers input{
+  width: 3em;
+}
+.cant-pers{
+  width: 5em;
+}
 .entrada{
   padding: 10px;
+}
+.programar form{
+  margin: 5px;
+  padding: 10px;
+}
+.programar input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  margin: 0px 10px;
+  padding: 0px 10px; 
+  border-bottom: 1px solid #fff;
+}
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  padding: initial;
+  margin: 3px;
+  border: initial;
+  background-color: initial;
+  cursor: default;
 }
