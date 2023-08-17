@@ -77,29 +77,29 @@
     <div id="programarviaje">
       <h2>Programar viaje</h2>
       <div class="programar">
-        <div class="fecha">
-          <h4>Fecha de:</h4>
+        <div class="fecha entrada">
+          <h4>Fecha, Hora de:</h4>
           <form autocomplete="off" class="input-fecha">
             <label>Ida: </label>
-            <input type="datetime" id="fecha-ida">
+            <input type="datetime-local" id="fecha-ida">
           </form>
           <form autocomplete="off" class="input-fecha">
             <label>Vuelta: </label>
-            <input type="datetime" id="fecha-vuelta">
+            <input type="datetime-local" id="fecha-vuelta">
           </form>
         </div>
-        <div class="lugar-origen-destino">
+        <div class="lugar-origen-destino entrada">
           <h4>Lugar de:</h4>
           <form autocomplete="off" class="input-origen">
             <label>Origen: </label>
-            <input type="date" id="lugar-origen">
+            <input type="text" id="lugar-origen">
           </form>
           <form autocomplete="off" class="input-destino">
             <label>Destino: </label>
-            <input type="date" id="lugar-destino">
+            <input type="text" id="lugar-destino">
           </form>
         </div>
-        <div class="cant-pers-y-param">
+        <div class="cant-pers-y-param entrada">
           <form autocomplete="off" class="cant-pers">
             <label>Cuantas personas son: </label>
             <input type="number" id="pers">
@@ -113,15 +113,20 @@
               <label>Lugar fijo</label>
               <input type="checkbox" id="fijo">
             </form>
-            <form autocomplete="off">
-              <label>La camioneta debe ir un dia volver y luego ir nuevamente a buscarlos</label>
+            <!--form autocomplete="off">
+              <label>Debemos ir y volver y luego ir y volver</label>
               <input type="checkbox" id="ir-volver">
             </form>
             <form autocomplete="off">
               <label>Llevarlos y traerlos en el mismo dia</label>
               <input type="checkbox" id="un-dia">
-            </form>
+            </form -->
           </div>
+          <form autocomplete="off">
+            <label>Precio por persona</label>
+            <button>Calcular</button>
+          </form>
+          <p>¿Se siente desconforme con el precio? Llame a 32414534</p>
         </div>
       </div>
     </div>

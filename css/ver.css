@@ -8,8 +8,8 @@
   height: 20em;
   display: flex;
   align-items: center;
-  background-color: #fedb5f;
-  /*#fcd360*/
+  background-color: #333;
+  color: #fff;
 }
 
 .contenido-viaje {
@@ -22,6 +22,7 @@
   align-items: center;
   text-align: center;
   margin: 20px;
+  color: #000;
 }
 
 .precio {
@@ -37,7 +38,6 @@
   width: 15em;
   height: 10em;
   margin: 20px;
-  background-color: #fedb5f;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +45,7 @@
 
 .distinta-fuente {
   font-family: 'Borel', cursive;
+  color: #d49434;
 }
 
 .caract {
@@ -53,12 +54,13 @@
   justify-content: center;
   background-color: #eef;
   width: 12em;
-  height: 5em;
+  height: 3em;
   padding: 10px;
   border-radius: 6px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .precio {
   font-size: 15px;
+  color: #d49434;
 }
