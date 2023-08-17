@@ -47,12 +47,31 @@
   border-bottom: 1px solid #fff;
 }
 input[type="checkbox"] {
-  -webkit-appearance: checkbox;
-  -moz-appearance: checkbox;
-  appearance: checkbox;
-  padding: initial;
-  margin: 3px;
-  border: initial;
-  background-color: initial;
-  cursor: default;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 1.5em;
+  height: 1.7em;
+  border-radius: 50%;
+  border: 2px solid #d49434;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #d49434;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+#btn-calcular-precio{
+  
 }
