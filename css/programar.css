@@ -46,6 +46,9 @@
   padding: 0px 10px; 
   border-bottom: 1px solid #fff;
 }
+.param form{
+  display: flex;
+}
 input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -73,5 +76,11 @@ input[type="checkbox"]:checked::before {
   color: #fff;
 }
 #btn-calcular-precio{
-  
+  padding: 5px;
+  margin: 0px 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #47f;
+  color: #fff;
 }
