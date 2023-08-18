@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #224;
 }
 .programar{
   margin: 20px;
@@ -15,9 +16,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #333;
+  background-color: #113;
   border-radius: 5px;
-  color: #fff;
 }
 .cant-pers-y-param{
   display: flex;
@@ -41,7 +41,6 @@
   border: none;
   outline: none;
   background-color: transparent;
-  color: #fff;
   margin: 0px 10px;
   padding: 3px 10px; 
   border-radius: 5px;
@@ -77,7 +76,6 @@ input[type="checkbox"]:checked::before {
   justify-content: center;
   line-height: 20px;
   font-size: 14px;
-  color: #fff;
 }
 #btn-calcular-precio{
   padding: 5px;

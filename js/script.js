@@ -5,17 +5,10 @@ let img = document.querySelectorAll("#paisaje-img")
 
 let i = 1;
 setInterval(() => {
-  let parcentage;
-  let index;
+  let parcentage = i * -100;
+  sliderInner.style.transform = `translate(${parcentage}%)`
+  i++;
   if (i >= img.length) {
-    parcentage = i * -100;
-    index = "i--"
+    i = 1;
   }
-  else if (i <= 7) {
-    parcentage = i * -100
-    index = "i++"
-  }
-  sliderInner.style.transform = `translate(${parcentage}%)`;
-  if (index === "i++")  i++ 
-  else  i--
-}, 3000);
+}, 4000);

@@ -36,15 +36,72 @@
       <div class="slider-inner">
         <img src="./img/cerro-uritorco.jpg" alt="" id="paisaje-img">
         <img src="./img/mendoza.jpg" alt="" id="paisaje-img">
-        <img src="./img/cataratas.jpg" alt="" id="paisaje-img">
         <img src="./img/cerro-jujuy.jpg" alt="" id="paisaje-img">
         <img src="./img/neuquen.jpg" alt="" id="paisaje-img">
         <img src="./img/santa-cruz-2.jpg" alt="" id="paisaje-img">
         <img src="./img/santa-cruz.jpg" alt="" id="paisaje-img">
+        <img src="./img/cataratas.jpg" alt="" id="paisaje-img">
       </div>
     </div>
   </header>
   <main id="verviajes">
+    <div id="programarviaje">
+      <h2 class="distinta-fuente">Programar viaje</h2>
+      <div class="programar">
+        <div class="fecha entrada">
+          <h4 class="distinta-fuente">Fecha, Hora de:</h4>
+          <form autocomplete="off" class="input-fecha">
+            <label>Ida: </label>
+            <input type="datetime-local" id="fecha-ida">
+          </form>
+          <form autocomplete="off" class="input-fecha">
+            <label>Vuelta: </label>
+            <input type="datetime-local" id="fecha-vuelta">
+          </form>
+        </div>
+        <div class="lugar-origen-destino entrada">
+          <h4 class="distinta-fuente">Lugar de:</h4>
+          <form autocomplete="off" class="input-origen">
+            <label>Origen: </label>
+            <input type="text" id="lugar-origen">
+          </form>
+          <form autocomplete="off" class="input-destino">
+            <label>Destino: </label>
+            <input type="text" id="lugar-destino">
+          </form>
+        </div>
+        <div class="cant-pers-y-param entrada">
+          <form autocomplete="off" class="cant-pers">
+            <label>Personas: </label>
+            <input type="number" id="pers">
+          </form>
+          <div class="param">
+            <form autocomplete="off">
+              <label>Turismo</label>
+              <input type="checkbox" id="turismo">
+            </form>
+            <form autocomplete="off">
+              <label>Lugar fijo</label>
+              <input type="checkbox" id="fijo">
+            </form>
+            <!--form autocomplete="off">
+                  <label>Debemos ir y volver y luego ir y volver</label>
+                  <input type="checkbox" id="ir-volver">
+                </form>
+                <form autocomplete="off">
+                  <label>Llevarlos y traerlos en el mismo dia</label>
+                  <input type="checkbox" id="un-dia">
+                </form -->
+          </div>
+        </div>
+        <form autocomplete="off">
+          <label>Precio por persona: $34</label>
+          <button id="btn-calcular-precio">Calcular</button>
+        </form>
+        <p class="num">¿Se siente desconforme con el precio? o ¿Tiéne algúna duda? <span class="distinta-fuente">llame a
+            3241453</span></p>
+      </div>
+    </div>
     <div class="verviaje">
       <div class="viaje">
         <div class="contenido-viaje">
@@ -97,63 +154,6 @@
         <div class="imgveviajes">
           <img src="" alt="Lugar" class="img">
         </div>
-      </div>
-    </div>
-    
-    <div id="programarviaje">
-      <h2 class="distinta-fuente">Programar viaje</h2>
-      <div class="programar">
-        <div class="fecha entrada">
-          <h4 class="distinta-fuente">Fecha, Hora de:</h4>
-          <form autocomplete="off" class="input-fecha">
-            <label>Ida: </label>
-            <input type="datetime-local" id="fecha-ida">
-          </form>
-          <form autocomplete="off" class="input-fecha">
-            <label>Vuelta: </label>
-            <input type="datetime-local" id="fecha-vuelta">
-          </form>
-        </div>
-        <div class="lugar-origen-destino entrada">
-          <h4 class="distinta-fuente">Lugar de:</h4>
-          <form autocomplete="off" class="input-origen">
-            <label>Origen: </label>
-            <input type="text" id="lugar-origen">
-          </form>
-          <form autocomplete="off" class="input-destino">
-            <label>Destino: </label>
-            <input type="text" id="lugar-destino">
-          </form>
-        </div>
-        <div class="cant-pers-y-param entrada">
-          <form autocomplete="off" class="cant-pers">
-            <label>Personas: </label>
-            <input type="number" id="pers">
-          </form>
-          <div class="param">
-            <form autocomplete="off">
-              <label>Turismo</label>
-              <input type="checkbox" id="turismo">
-            </form>
-            <form autocomplete="off">
-              <label>Lugar fijo</label>
-              <input type="checkbox" id="fijo">
-            </form>
-            <!--form autocomplete="off">
-              <label>Debemos ir y volver y luego ir y volver</label>
-              <input type="checkbox" id="ir-volver">
-            </form>
-            <form autocomplete="off">
-              <label>Llevarlos y traerlos en el mismo dia</label>
-              <input type="checkbox" id="un-dia">
-            </form -->
-          </div>
-        </div>
-        <form autocomplete="off">
-          <label>Precio por persona: $34</label>
-          <button id="btn-calcular-precio">Calcular</button>
-        </form>
-        <p class="num">¿Se siente desconforme con el precio? o ¿Tiéne algúna duda? <span class="distinta-fuente">llame a 3241453</span></p>
       </div>
     </div>
   </main>
