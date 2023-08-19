@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #224;
+  background-color: #D1DDED;
 }
 .programar{
   margin: 20px;
@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #113;
+  background-color: #6D84A1;
   border-radius: 5px;
 }
 .cant-pers-y-param{
