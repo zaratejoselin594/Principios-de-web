@@ -6,7 +6,7 @@
   color: #fff;
 }
 body{
-  background-color: #314154;
+  background-color: #ff714b;
 }
 html{
   scroll-behavior: smooth;
@@ -31,6 +31,7 @@ nav{
   height: 3em;
   position: absolute;
   box-shadow: 0px 3px 10px #1114;
+  z-index: 2;
 }
 .item-nav{
   margin: 20px;
@@ -44,27 +45,69 @@ header{
   height: 70vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(30deg, #540045, #ff714b);
 }
 .header-texto{
-  width: 50em;
-  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   line-height: 2;
   padding: 20px;
   margin: 40px;
 }
 .texto{
-  margin: 25px 0px;
+  margin: 5px 0px 20px 0px;
   font-size: 18px;
 }
 .btn-header{
-  text-decoration: none;
-  padding: 10px;
-  font-size: 18px;
-  margin-right: 15px;
-  background-color: #47f;
+  font-size: 20px;
+  padding: 10px 15px;
+  width: 12em;
+  height: 3em;
+  margin: 10px;
+  outline: none;
+  border: none;
+  background-color: #232323;
   border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+}
+.btn-header a{
+  text-decoration: none;
+}
+.btn-header::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  transform-origin: center;
+  background-color: none;
+  transition: transform 1s, background-color 1s;
+}
+.btn-header:hover::after{
+  transform: scale(50);
+  background-color: #ff714b;
+}
+.botones{
+  display: flex;
 }
 #verviajes{
   width: 100%;
   height: 200vh;
+}
+.wave{
+  position: absolute;
+  bottom: 0px;
+  height: 7em;
+  width: 100%;
 }
