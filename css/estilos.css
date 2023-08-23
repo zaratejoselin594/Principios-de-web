@@ -78,7 +78,7 @@ header{
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  z-index: 2;
+  z-index: 3;
 }
 .btn-header a{
   text-decoration: none;
