@@ -5,14 +5,19 @@
 
 .viaje {
   width: 100%;
-  height: 12em;
-  padding: 2em 0px;
-  margin: 2px 0px;
-  align-items: center;
+  height: auto;
+  padding: 3em 0px;
+  margin: 4em 0px;
+  background-color: #333;
+  font-weight: bold;
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .contenido-viaje {
+  min-width: 70%;
+  padding: 1em;
   margin: 20px;
 }
 
