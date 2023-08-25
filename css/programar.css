@@ -92,3 +92,8 @@ input[type="checkbox"]:checked::before {
   width: 20em;
   text-align: center;
 }
+.precio2{
+  height: 3em;
+  margin: 0px 20px;
+  color: #FABD2D;
+}

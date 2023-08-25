@@ -8,25 +8,22 @@
   height: auto;
   padding: 3em 0px;
   margin: 4em 0px;
-  background-color: #333;
   font-weight: bold;
+  box-shadow: 0px 0px 30px #1112;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .contenido-viaje {
-  min-width: 70%;
-  padding: 1em;
+  max-width: 75%;
   margin: 20px;
 }
 
 .caract-viaje {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  text-align: center;
-  margin: 20px;
 }
 
 .precio {
@@ -35,15 +32,18 @@
   align-items: center;
   height: 3em;
   margin: 0px 20px;
+  font-size: 15px;
+  color: #FABD2D;
 }
 
 .imgveviajes {
   width: 15em;
   height: 10em;
-  margin: 20px;
+  margin: 0px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #777;
 }
 
 .distinta-fuente {
@@ -52,17 +52,7 @@
 }
 
 .caract {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 12em;
-  height: 3em;
-  padding: 10px;
-  border-radius: 6px;
-  font-size: 14px;
-}
-
-.precio {
-  font-size: 15px;
-  color: #FABD2D;
+  padding: 10px 0px;
+  font-weight: 500;
 }
