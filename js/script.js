@@ -1,6 +1,7 @@
+
 // Define the origin and destination
-const origin = "New York, NY";
-const destination = "Los Angeles, CA";
+const origen = document.getElementById("lugar-origen");
+const destino = document.getElementById("lugar-destino");
 
 // Create a DirectionsService object
 const directionsService = new google.maps.DirectionsService();
@@ -10,8 +11,8 @@ const travelMode = google.maps.TravelMode.DRIVING;
 
 // Define the request object
 const request = {
-  origin: origin,
-  destination: destination,
+  origin: origen,
+  destination: destino,
   travelMode: travelMode,
 };
 
