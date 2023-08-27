@@ -21,6 +21,17 @@
   border-radius: 5px;
   flex-wrap: wrap;
 }
+.servicioP{color: #fff;}
+.contenedor-texto{
+  display: flex;
+  gap: 1em;
+  padding: .5em 2em;
+}
+.contenedor-texto a{
+  color: #FABD2D;
+  font-weight: bold;
+  transform: scale(1.4);
+}
 .cant-pers-y-param{
   display: flex;
   align-items: center;
