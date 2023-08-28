@@ -21,13 +21,12 @@
   border-radius: 5px;
   flex-wrap: wrap;
 }
-.servicioP{color: #fff;}
-.contenedor-texto{
-  display: flex;
-  gap: 1em;
-  padding: .5em 2em;
+.servicioP{
+  color: #fff;
+  padding: 1em 2em;
 }
-.contenedor-texto a{
+
+.servicioP a{
   color: #FABD2D;
   font-weight: bold;
   transform: scale(1.4);
