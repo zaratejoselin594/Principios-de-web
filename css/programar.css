@@ -10,9 +10,8 @@
   background-color: #540045;
 }
 .programar{
-  margin: 20px;
-  padding: 10px;
-  height: auto;
+  margin: 1.7em;
+  padding: 2em 0em;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -42,9 +41,7 @@
 #pers{
   width: 2em;
 }
-.entrada{
-  padding: 10px;
-}
+
 .programar form{
   margin: 5px;
   padding: 10px;
@@ -59,6 +56,10 @@
   border-radius: 5px;
   text-align: center;
   border: 1px solid #000;
+}
+.label-form{
+  width: 3.6em;
+  float: left;
 }
 .param form{
   display: flex;
@@ -106,5 +107,15 @@ input[type="checkbox"]:checked::before {
 .precio2{
   height: 3em;
   margin: 0px 20px;
-  color: #FABD2D;
+  color: #47f;
+}
+.precio2 span{
+  color: #000;
+  font-size: 18px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
