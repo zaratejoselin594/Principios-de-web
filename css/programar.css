@@ -36,11 +36,11 @@
   align-items: center;
   justify-content: center;
 }
-.cant-pers input{
-  width: 3em;
-}
 .cant-pers{
   width: 5em;
+}
+#pers{
+  width: 2em;
 }
 .entrada{
   padding: 10px;
@@ -54,6 +54,7 @@
   outline: none;
   background-color: transparent;
   margin: 0px 10px;
+  width: 14em;
   padding: 3px 10px; 
   border-radius: 5px;
   text-align: center;
@@ -71,14 +72,14 @@ input[type="checkbox"] {
   width: 1.5em;
   height: 1.7em;
   border-radius: 50%;
-  border: 2px solid #d49434;
+  border: 2px solid #FABD2D;
   outline: none;
   cursor: pointer;
   text-align: center;
 }
 
 input[type="checkbox"]:checked {
-  background-color: #d49434;
+  background-color: #FABD2D;
 }
 
 input[type="checkbox"]:checked::before {
