@@ -7,18 +7,20 @@
   <link rel="stylesheet" href="./css/estilos.css">
   <link rel="stylesheet" href="./css/programar.css">
   <link rel="stylesheet" href="./css/ver.css">
-  <script src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_DE_API&libraries=places"></script>
   <title>J y S</title>
 </head>
 
 <body>
   <nav>
     <img src="" alt="Logo" class="item-nav">
-    <div class="indices-nav item-nav">
-      <a href="#verviajes" class="indice">Ver viajes</a>
-      <a href="#programarviaje" class="indice" >Programar Viaje</a>
-      <a href="#servicio" class="indice" >Servicio</a>
-      <a href="#contacto" class="indice" >Contacto</a>
+    <div class="item-nav ">
+      <ion-icon name="menu" class="icon-menu"></ion-icon>
+      <div>
+        <a href="#verviajes" class="indice">Ver viajes</a>
+        <a href="#programarviaje" class="indice" >Programar Viaje</a>
+        <a href="#servicio" class="indice" >Servicio</a>
+        <a href="#contacto" class="indice" >Contacto</a>
+      </div>
     </div>
   </nav>
   <header>
@@ -75,7 +77,7 @@
 
           <form autocomplete="off" class="cant-pers">
             <label>Personas: </label>
-            <input type="number" id="pers" placeholder="10">
+            <input type="number" id="pers" placeholder="Ej:10">
           </form>
 
           <div class="param">
@@ -172,7 +174,8 @@
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="./js/script.js"></script>
+  <!-- script src="./js/script.js"></script -->
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>

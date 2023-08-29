@@ -1,7 +1,7 @@
 #programarviaje{
   width: 100%;
   height: auto;
-  padding: 2em 0px;
+  padding: 3em 0px;
   position: relative;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
 }
 .servicioP{
   color: #fff;
-  padding: 1em 2em;
+  padding: .5em 2em;
 }
 
 .servicioP a{
