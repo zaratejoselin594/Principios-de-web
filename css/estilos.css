@@ -82,33 +82,32 @@ a, button{
   bottom: -6em;
 }
 .responsiveMenu {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
-  width: 55%;
+  width: 10em;
   height: 100vh;
   font-size: 1.3em;
-  display: flex;
   text-align: end;
-  flex-direction: column;
   background-color: #dfdfdf;
+  z-index: 3;
 }
 .indiceR{
-  margin: .4em;
+  margin: .3em .7em;
   text-decoration: none;
   color: #000;
 }
 .iconoMenu{
-  width: 2em;
-  height: 2em;
-  text-align: end;
+  font-size: 2em;
+  margin: .3em;
 }
 .enlaces{
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
 }
-
+@media (min-width: 700px) {
+  
+}
 @keyframes expandir {
   to{
     display: flex;
