@@ -91,12 +91,17 @@ a, button{
   display: flex;
   text-align: end;
   flex-direction: column;
-  background-color: #bfbfbf;
+  background-color: #dfdfdf;
 }
 .indiceR{
   margin: .4em;
   text-decoration: none;
   color: #000;
+}
+.iconoMenu{
+  width: 2em;
+  height: 2em;
+  text-align: end;
 }
 .enlaces{
   display: flex;
@@ -107,6 +112,5 @@ a, button{
 @keyframes expandir {
   to{
     display: flex;
-    height: auto;
   }
 }
